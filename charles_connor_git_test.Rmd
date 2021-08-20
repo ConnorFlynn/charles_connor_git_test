@@ -12,6 +12,7 @@ library(palmerpenguins)
 ```
 ```{r}
 ggplot(data = penguins, aes(x = species, y = body_mass_g)) +
-  geom_violin(aes(fill = species))
+  geom_violin(aes(fill = species)) +
+  theme_okay()
 ```
 
