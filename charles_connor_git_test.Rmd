@@ -12,6 +12,6 @@ library(palmerpenguins)
 ```
 ```{r}
 ggplot(data = penguins, aes(x = species, y = body_mass_g)) +
-  geom_point()
+  geom_violin(aes(fill = species))
 ```
 
